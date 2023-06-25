@@ -166,13 +166,15 @@ header{
             position: absolute;
             margin-left: -356px;
             margin-top: 137px;
+            width: 197px;
+            font-size: 13px;
             margin-left: -335px;
         }
         .search-btn {
             padding-top: 1px;
             position: absolute;
             /* padding-left: 657px; */
-            margin-left: -89px;
+            margin-left: -108px;
             margin-top: 137px;
         }
         
