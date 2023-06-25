@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+
+:root{
+    
+    
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(125,31,128,1) 0%, rgba(12,57,179,1) 74%, rgba(32,5,85,1) 100%, rgba(0,212,255,1) 100%);
+
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+
+    
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(125,31,128,1) 0%, rgba(12,57,179,1) 74%, rgba(32,5,85,1) 100%, rgba(0,212,255,1) 100%);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header{
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(125,31,128,1) 0%, rgba(12,57,179,1) 74%, rgba(32,5,85,1) 100%, rgba(0,212,255,1) 100%);
+   
+}
+.search {
+    background-color: transparent;
+    border: 2px solid #ffe600;
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: #0c0b0b;
+    position: absolute;
+    /* justify-content: center; */
+    /* margin-right: 0px; */
+    margin-left: -1028px;
+    margin-top: 116px;
+}
+    .search::placeholder{
+        color: rgb(133, 140, 133);
+    }
+    .search:focus{
+        outline:none;
+        background-color:rgb(249, 245, 245);
+    }
+   
+    .search-btn {
+        background-color: #f5d020;
+        background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+        position: absolute;
+        margin-left: -511px;
+        height: 44px;
+        width: 85px;
+        margin-top: 116px;
+        margin-left: -777px;
+        border-radius: -25;
+        border: 1px solid aliceblue;
+        border-radius: 20px;
+        color: white;
+        border-color: orange;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+    
+   
+    .heading h1 {
+        position: absolute;
+        padding-left: 463px;
+        padding-top: 33px;
+       color: #00FF00;
+       
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 224px;
+        }
+    .movie {
+        width: 300px;
+        margin: 1rem;
+        background-color: var(--secondary-color);
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+        position: relative;
+        overflow: hidden;
+        border-radius: 3px;
+      }
+      
+      .movie img {
+        width: 100%;
+      }
+      
+      .movie-info {
+        color: #eee;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:0.2rem;
+        padding: 0.5rem 1rem 1rem;
+        letter-spacing: 0.5px;
+      }
+      
+      .movie-info h3 {
+        margin-top: 0;
+      }
+      
+      .movie-info span {
+        background-color: var(--primary-color);
+        padding: 0.25rem 0.5rem;
+        border-radius: 3px;
+        font-weight: bold;
+      }
+      
+      .movie-info span.green {
+        color: lightgreen;
+      }
+      
+      .movie-info span.orange {
+        color: orange;
+      }
+      
+      .movie-info span.red {
+        color: red;
+      }
+      
+      .overview {
+        background-color: #fff;
+        padding: 2rem;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        max-height: 100%;
+        transform: translateY(101%);
+        overflow-y: auto;
+        transition: transform 0.3s ease-in;
+      }
+      
+      .movie:hover .overview {
+        transform: translateY(0);
+      }
+
+      @media only screen and (max-width: 640px){
+               
+        body{
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(125,31,128,1) 0%, rgba(12,57,179,1) 74%, rgba(32,5,85,1) 100%, rgba(0,212,255,1) 100%);
+        }
+        :root{
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(125,31,128,1) 0%, rgba(12,57,179,1) 74%, rgba(32,5,85,1) 100%, rgba(0,212,255,1) 100%);
+        }
+        .heading h1 {
+            position: absolute;
+            padding-left: 38px;
+            padding-top: 61px;
+            font-size: 28px;
+            color: #00FF00;
+        }
+        .search {
+            /* margin-left: 655px; */
+            position: absolute;
+            margin-left: -356px;
+            margin-top: 137px;
+            margin-left: -335px;
+        }
+        .search-btn {
+            padding-top: 1px;
+            position: absolute;
+            /* padding-left: 657px; */
+            margin-left: -89px;
+            margin-top: 137px;
+        }
+        
+      } 
+      
